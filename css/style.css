@@ -1,0 +1,26 @@
+body{
+    color: #000000;
+    font-size: 20px;
+    margin: 20px;
+    font-family: 'Times New Roman', Times, serif, sans-serif;
+    /* background-color: pink; */
+}
+
+h1 { 
+    font-size: 40px;
+    color: pink;
+}
+
+h2 { 
+    font-size: 30px;
+    color: royalblue;
+}
+
+p { 
+    font-size: 25px;
+    color: slateblue;
+}
+
+h1, h2, p, body { 
+    padding: 20px;
+}
