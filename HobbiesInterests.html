@@ -3,27 +3,35 @@
 <head> <!-- where we put our meta data - nothing from head tag shoes up on page -->
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- letting you know screensize (phone, ipad, computer, etc.) -->
-	<link rel="icon" href="imgs/favicon.ico"> <!-- how you get pictures on your tabs on browser -->
+	<link rel="icon" href="images/headerlogo.png"> <!-- how you get pictures on your tabs on browser -->
 	<link rel="stylesheet" href="css/html5reset.css"> 
 	<link rel="stylesheet" href="css/style.css">
 	<title>Blair's Portfolio</title> <!-- title of tab on browser -- only thing you can see  -->
 </head>
-<header> <!-- semantic tag -->
-	<nav> 
-		<ul>
-			<li><a href = "Portfolio.html">About Me</a></li> <!-- local file -->
-			<li><a href = "Resume.html">Resume</a></li> <!-- local file -->
-			<li><a href = "HobbiesInterests.html">Hobbies and Interests</a></li> <!-- local file -->
-			<li><a href = "SomethingElse.html">Something Else</a></li> <!-- absolute references -->
-		</ul>
-	</nav>
+
+<body>
+	<a class="SkipToContentLink" href="#main">Skip to Content</a>
+	
+	<header> 
+		<img src= "images/headerlogo.png" alt="Blair Fields logo" id=BFlogo;>
+
+		<nav> 
+			<ul class="navigationBar">
+				<li><a href= "Portfolio.html">About Me</a></li> <!-- local file -->
+				<li><a href = "Resume.html">Resume</a></li> <!-- local file -->
+				<li><a class="current" href = "HobbiesInterests.html">Hobbies and Interests</a></li> <!-- local file -->
+				<li><a href = "Photos.html">Photos</a></li> <!-- absolute references -->
+			</ul>
+		</nav>
+	</header>
+
+
+	<main id="main">
+	<!-- <a class="SkipToContentLink" href="#main">Skip to Content</a>  -->
 
 	<h1>Hobbies and Interests Page!</h1>
 
-</header>
-
-<main>
-
+	
 	<h2>This will display my hobbies and interests!</h2><h2></h2>
 
 	<p>And include more info...</p>

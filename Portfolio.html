@@ -3,35 +3,57 @@
 <head> <!-- where we put our meta data - nothing from head tag shoes up on page -->
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- letting you know screensize (phone, ipad, computer, etc.) -->
-	<link rel="icon" href="imgs/favicon.ico"> <!-- how you get pictures on your tabs on browser -->
+	<link rel="icon" href="images/headerlogo.png"> <!-- how you get pictures on your tabs on browser -->
 	<link rel="stylesheet" href="css/html5reset.css"> 
 	<link rel="stylesheet" href="css/style.css">
 	<title>Blair's Portfolio</title> <!-- title of tab on browser -- only thing you can see  -->
 </head>
-<header> <!-- semantic tag -->
-	<nav> 
-		<ul>
-			<li><a href = "Portfolio.html">About Me</a></li> <!-- local file -->
-			<li><a href = "Resume.html">Resume</a></li> <!-- local file -->
-			<li><a href = "HobbiesInterests.html">Hobbies and Interests</a></li> <!-- local file -->
-			<li><a href = "SomethingElse.html">Something Else</a></li> <!-- absolute references -->
-		</ul>
-	</nav>
 
-	<h1>Welcome!</h1>
+<body>
+	<a class="SkipToContentLink" href="#main">Skip to Content</a>
+	
+	<header> <!-- semantic tag -->
+		<img src= "images/headerlogo.png" alt="Blair Fields logo" id=BFlogo;
 
-</header>
+		<nav> 
+			<ul class=navigationBar>
+				<li><a class="current" href= "Portfolio.html">About Me</a></li> <!-- local file -->
+				<li><a href = "Resume.html">Resume</a></li> <!-- local file -->
+				<li><a href = "HobbiesInterests.html">Hobbies and Interests</a></li> <!-- local file -->
+				<li><a href = "Photos.html">Photos</a></li> <!-- absolute references -->
+			</ul>
+		</nav>
+	
+	</header>
 
-<main>
+	<main id="main">
 
-	<h2>Hi everyone! My name is Blair Fields, welcome to my portfolio!</h2><h2></h2>
+		<h1>Welcome!</h1>
 
-	<p>My previous jobs include Associate Professor at <a href = "http://www.csulb.edu">California State University</a> and positions at NASA JPL, the Naval Research Lab, and the NSA. I received my BS from <a href = "http://www.kent.edu">Kent State University</a>Honors College in Computer Science, and an MS and PhD from the University of Pittsburgh, also in Computer Science. My thesis was on Artificial Intelligence applications on the Nursebot Project, a robotic assistant for the elderly.</p>
-<!-- if you don't have http:// before, it will try to look for local file of csulb.edu -->
+		<p>Hi everyone! My name is Blair Fields, welcome to my portfolio!</p>
+		
+		<div class="headshot">
+			<img id="headshot" src="images/headshot.JPG" alt=headshot>
+		</div>
+
+		<p>I am currently a junior at the Univeristy of Michigan studying Information Sciences within the School of Information and Business within the Ross School of Business. My academic studies allow me 
+			focus on the intersection of people, technology, and information while also incorporating analytical business knowledge.</p>
+
+		<div class="ContactInformation">
+			<img src="images/ContactMeBackground.jpg" alt=""
+			
+			<p>Here is my contact information: Number: 248.762.2035. Email: fieldsb@umich.edu</p>
+		</div>
+
+
+
+	
+
 </main>
 
 <footer>
 	<p>Blair Fields &copy; 2021</p> <!-- copyright -->
 </footer>
+
 </body>
 </html>
