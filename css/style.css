@@ -207,7 +207,7 @@ main a:visited{
 .grid{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: repeat(4 100px);
+    grid-template-rows: 100px, 1fr 1fr 1fr;
     object-fit: cover;
     grid-column-gap: 1em;
     grid-row-gap: 1em;
@@ -232,47 +232,55 @@ main a:visited{
     .flowers { 
         grid-row: 2 / 2;
         grid-column: 1 / 1;
+        border: 5px #010265 solid;
     }
 
     .yummyfood { 
         grid-row: 2 / 2;
         grid-column: 2 / 3;
-
+        border: 5px #010265 solid;
     }
 
     .travelwithfriends { 
-        grid-template-rows: 2 / 2;
-        grid-template-columns: 3 / 3;
+        grid-row: 2 / 2;
+        grid-column: 3 / 3;
+        border: 5px #010265 solid;
     }
 
     .travel { 
-        grid-template-rows: 3 / 3;
-        grid-template-columns: 1 / 1;
+        grid-row: 3 / 3;
+        grid-column: 1 / 1;
+        border: 5px #010265 solid;
     }
 
     .baking { 
-        grid-template-rows: 3 / 3;
-        grid-template-columns: 3 / 3;
+        grid-row: 3 / 3;
+        grid-column: 3 / 3;
+        border: 5px #010265 solid;
     }
 
     .museums { 
-        grid-template-rows: 3 / 3;
-        grid-template-columns: 2 / 2;
+        grid-row: 3 / 3;
+        grid-column: 2 / 2;
+        border: 5px #010265 solid;
     }
 
     .siteseeing { 
-        grid-template-rows: 4 / 4;
-        grid-template-columns: 1 / 1;
+        grid-row: 4 / 4;
+        grid-column: 1 / 1;
+        border: 5px #010265 solid;
     }
 
     .gameday { 
-        grid-template-rows: 4 / 4;
-        grid-template-columns: 2 / 2;
+        grid-row: 4 / 4;
+        grid-column: 2 / 2;
+        border: 5px #010265 solid;
     }
 
     .skiing { 
-        grid-template-rows: 4 / 4;
-        grid-template-columns: 3 / 3;
+        grid-row: 4 / 4;
+        grid-column: 3 / 3;
+        border: 5px #010265 solid;
     }
  
     footer { 
