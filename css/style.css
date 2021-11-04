@@ -114,6 +114,8 @@ h2 {
 p { 
     font-size: 25px;
     color: slateblue;
+    padding: 20px;
+    text-align: center;
     /* padding-left: 20px; */
 }
 
@@ -145,13 +147,16 @@ div.headshot {
     max-height: 800px;
     align-items: center;
     margin:auto;
+    text-align: center;
 }
 .headshot img { 
-    min-height: 200px;
-    min-width: 200px;
+    height: 300px;
+    width: 400px;
     margin-left: auto;
     margin-right: auto;
     align-items: center;
+    align-content: center;
+    display: inline-block;
 }
 main a { 
     color: blueviolet;
@@ -163,7 +168,11 @@ main a:hover {
 main a:visited{
     color:slateblue; 
 }
-
+ 
+footer p a img{
+    height: 60px;
+    max-width: 80px;
+}
 
 /* Photos page  */
 
@@ -196,9 +205,13 @@ main a:visited{
       height: 100vh;
   }
 
-  .resume { 
+  .transcript { 
       display: none;
       /* make it display on tablet and laptop views */
+  }
+
+  .resume { 
+      display: none;
   }
 
 
