@@ -44,7 +44,16 @@ header ul li a:visited{
 	top:1px;
 }
 
-        
+/* a.skip{
+    background: white;
+    left: 0;
+    padding: 6px;
+    position: absolute;
+    top: -40px;
+    -webkit-transition: top 1s ease-out;
+    transition: top 1s ease-out;
+    z-index: 1;
+  }     */
 
 .navigationBar .current { 
     color:magenta;
