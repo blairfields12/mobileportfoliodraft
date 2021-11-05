@@ -253,14 +253,28 @@ footer p a img{
       display: none;
   }
 
-  .relevantclasses{
-      display: grid;
+  
+
+    /* .relevantclasses li{ 
+        list-style-type: square;
+    } */
+
+      /* display: grid;
       grid-template-columns: 1fr 1fr 1fr;
       grid-template-rows: 1fr 1fr 1fr 1fr;
       grid-column-gap: 1em;
       grid-row-gap: 1em;   
-      list-style-type: square;      /* margin-left: 10px;  */
-}
+      list-style-type: square;      margin-left: 10px;  */
+      /* display: flex;
+      flex-direction: column; */
+      /* flex-direction: row; */
+    /* flex-wrap: wrap; */
+    /* justify-content: center;
+    align-items: space-between; */
+    /* align-items: space-between;
+    min-width: 250px;
+    min-height: 250px; 
+    list-style-type: square */
 
     .relevantclasses li{ 
         font-weight: lighter;
@@ -269,6 +283,15 @@ footer p a img{
         -- if i can do that, make font-weight:bold, but if not, keep light */
         color: #696969;
         justify-self: center;
+        justify-content: center;
+        list-style-type: square;
+        margin-bottom: 15px;
+    }
+    .relevantclasses{
+        /* text-align: center; */
+        list-style-type: square;
+        margin-left: 60px;
+        align-items: center;
     }
 
 /* hobbies and interest page */
@@ -277,7 +300,8 @@ footer p a img{
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 100px 1fr 1fr 1fr;
     grid-column-gap: 1em;
-    grid-row-gap: 1em;    
+    grid-row-gap: 1em; 
+    width: 100%;   
 }
   
     #h1 { 
