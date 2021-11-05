@@ -255,17 +255,20 @@ footer p a img{
 
   .relevantclasses{
       display: grid;
-      grid-template-columns: 1fr 1fr 1fr 1fr;
-      grid-template-rows: 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-template-rows: 1fr 1fr 1fr 1fr;
       grid-column-gap: 1em;
       grid-row-gap: 1em;   
       list-style-type: square;      /* margin-left: 10px;  */
 }
 
     .relevantclasses li{ 
-        font-weight: bold;
+        font-weight: lighter;
+        font-size: 18px;
+        /* try to figur out how to make class names stay put but if you click it lets you see description or scroll or soemthing --
+        -- if i can do that, make font-weight:bold, but if not, keep light */
         color: #696969;
-        text-align: center;
+        justify-self: center;
     }
 
 /* hobbies and interest page */
