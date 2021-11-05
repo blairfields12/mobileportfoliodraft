@@ -116,19 +116,48 @@ h1 {
 
 h2 { 
     font-size: 30px;
-    color: royalblue;
+    color: #7F00FF;
     /* padding-left: 20px; */
 }
 
 p { 
     font-size: 25px;
-    color: slateblue;
-    padding: 20px;
-    text-align: center;
+    color: #696969;
+    /* text-align: center; */
     /* padding-left: 20px; */
 }
 
-h1, h2, p { 
+h3 { 
+    font-size: 25px; 
+    color: #696969;
+}
+
+h4 {
+    font-size: 20px;
+    color: #696969;
+}
+
+h4 ul li a:hover{
+    /* text-decoration: underline dotted navy 4px; */
+    border: 2px solid navy;
+}
+
+
+
+h4 ul li a{
+    color: #696969;    
+  }
+
+ h4 li { 
+    list-style-type: circle;
+    margin-left: 30px;
+ } 
+
+h4 ul li a:visited{
+    color:#696969;
+  }
+
+h1, h2, p, h4, h3 { 
     padding: 20px;
 }
 
@@ -168,19 +197,19 @@ div.headshot {
     display: inline-block;
 }
 main a { 
-    color: blueviolet;
+    color: #696969;
     font-style: italic;
 }
 main a:hover {
     text-decoration: underline dotted red
 }
 main a:visited{
-    color:slateblue; 
+    color:#696969; 
 }
  
 footer p a img{
-    height: 60px;
-    max-width: 80px;
+    height: 40px;
+    max-width: 50px;
 }
 
 /* Photos page  */
@@ -205,7 +234,8 @@ footer p a img{
   /* resume page */
 
   #main a:visited {
-    color:blueviolet;
+    /* color:blueviolet; */
+    color: #696969;
 }
 
   iframe {
@@ -223,32 +253,42 @@ footer p a img{
       display: none;
   }
 
+  .relevantclasses{
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+      grid-template-rows: 1fr 1fr 1fr;
+      grid-column-gap: 1em;
+      grid-row-gap: 1em;   
+      list-style-type: square;      /* margin-left: 10px;  */
+}
 
+    .relevantclasses li{ 
+        font-weight: bold;
+        color: #696969;
+        text-align: center;
+    }
 
-/* HW 5 STARTED CODE CSS */
+/* hobbies and interest page */
 .grid{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 100px, 1fr 1fr 1fr;
-    object-fit: cover;
+    grid-template-rows: 100px 1fr 1fr 1fr;
     grid-column-gap: 1em;
-    grid-row-gap: 1em;
-    /* grid-template-columns: repeat(3, 1fr);
-    grid-auto-rows: auto auto auto auto auto auto;
-    grid-gap: 10px 15px; */
+    grid-row-gap: 1em;    
 }
   
     #h1 { 
-        font-size: 40px;
         color: #0000cd;
-        font-family: Brush Script MT, 'Times New Roman', Times, serif;
-        font-size: 70px;
+        font-size: 49px;
         padding-top: 10px;
         padding-bottom: 10px;
-        /* padding-left: 20px; */
         margin: auto;
         grid-column: 1 / span 3;
         grid-row: 1 / 1;
+        justify-content: center;
+        font-family: Brush Script MT, 'Times New Roman', Times, serif;
+        text-align: center;
+
         }
 
     .flowers { 
@@ -257,10 +297,20 @@ footer p a img{
         border: 5px #010265 solid;
     }
 
+    .flowers img { 
+        height: 100%;
+        object-fit: cover;
+    }
+
     .yummyfood { 
         grid-row: 2 / 2;
         grid-column: 2 / 3;
         border: 5px #010265 solid;
+    }
+
+    .yummyfood img { 
+        height: 100%;
+        object-fit: cover;
     }
 
     .travelwithfriends { 
@@ -269,10 +319,20 @@ footer p a img{
         border: 5px #010265 solid;
     }
 
+    .travelwithfriends img{ 
+        height: 100%;
+        object-fit: cover;
+    }
+
     .travel { 
         grid-row: 3 / 3;
         grid-column: 1 / 1;
         border: 5px #010265 solid;
+    }
+
+    .travel img { 
+        height: 100%;
+        object-fit: cover;
     }
 
     .baking { 
@@ -281,10 +341,20 @@ footer p a img{
         border: 5px #010265 solid;
     }
 
+    .baking img { 
+        height: 100%;
+        object-fit: cover;
+    }
+
     .museums { 
         grid-row: 3 / 3;
         grid-column: 2 / 2;
         border: 5px #010265 solid;
+    }
+
+    .museums img { 
+        height: 100%;
+        object-fit: cover;
     }
 
     .siteseeing { 
@@ -293,16 +363,30 @@ footer p a img{
         border: 5px #010265 solid;
     }
 
+    .siteseeing img { 
+        height: 100%;
+        object-fit: cover;}
+
     .gameday { 
         grid-row: 4 / 4;
         grid-column: 2 / 2;
         border: 5px #010265 solid;
     }
 
+    .gameday img { 
+        height: 100%;
+        object-fit: cover;
+    }
+
     .skiing { 
         grid-row: 4 / 4;
         grid-column: 3 / 3;
         border: 5px #010265 solid;
+    }
+
+    .skiing img { 
+        height: 100%;
+        object-fit: cover;
     }
  
     footer { 
